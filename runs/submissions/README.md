@@ -1,0 +1,1 @@
+This folder contains the inference results in .txt format made by inference of the model (in the format asked by organizer).

@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: /usr/src/app/yolov7/runs/cfg/japan_positive_aug
+train: /usr/src/app/yolov7/runs/cfg/japan_positive_aug/train.txt
+val: /usr/src/app/yolov7/runs/cfg/japan_positive_aug/test.txt
+test: /usr/src/app/yolov7/runs/cfg/japan_positive_aug/test.txt
+
+# number of classes
+nc: 4
+
+# class names
+names: ['D00', 'D10', 'D20', 'D40']
